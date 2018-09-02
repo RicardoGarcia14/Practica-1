@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title></title>
+	</head>
+	<body>
+	</div id="Principal">
+		<header>
+			<div id="logo">
+				<h2> HACKEAR FACEBOOK</h2>
+				<p> Aprende a Hackear</p>
+			</div>
+				
+				<nav class="menu">
+					<ul>
+						<li><a href="">HACKERS</a></li>
+						<li><a href="">HACKERS 1 </a></li>
+						<li><a href="">HACKERS 2 </a></li>
+						<li><a href="">HACKERS 3 </a></li>
+						<li><a href="">HACKERS 4 </a></li>
+					</ul>
+					
+				</nav>
+		<FORM>
+
+		<input name="button2" type="button" onclick='alert("ESTA ES EL ALERTA.")' value="HAZ SIDO HACKEADO" />
+		<input name="button2" type="button" onclick='alert("ESTA ES EL ALERTA.")' value="HAZ SIDO HACKEADO NO LO HAGAS DE NUEVO" />
+		<input name="button2" type="button" onclick='alert("ESTA ES EL ALERTA.")' value="HAZ SIDO HACKEADO SIGUES!!!" />
+		</FORM>
+		
+		<textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>		
+		<input type="button" value="Nombre" id="boton">	
+		<input type="button" value="Fecha" id="boton">	
+		<input type="button" value="Password" id="boton">	
+
+		</header>
+		<section id="slide">
+			<img src="img/facebook.jpg" width="1500" height="400">
+		
+			<audio src="audio/LOLA.mp3" preload="none" controls></audio>
+			<table border="1">
+				<tr>
+					<td>Chicos Hacker 2013</td>
+					<td>Madres Hacker 2014</td>
+					<td>Padres Hacker 2015</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>10</td>
+					<td>09</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>43</td>
+					<td>12</td>
+				</tr>
+			</table>
+</head>
+<body>
+
+<h2>Search/Filter Dropdown</h2>
+<p>Click on the button to open the dropdown menu, and use the input field to search for a specific dropdown link.</p>
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">CLIC HERE</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#Clave">Clave</a>
+    <a href="#Name">Name</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#Fecha">Fecha</a>
+    <a href="#Correo">Correo</a>
+    <a href="#tools">Tools</a>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+			<h3> Maneras</h3>
+			<form name="formulario" method="post" action="http://pagina.com/send.php">
+ 	
+ 			 Selecciona la fecha deseada:
+ 			 <input type="date" name="fecha" min="2018-03-25"
+                                  max="2018-05-25" step="2">
+ 
+  			Selecciona la hora deseada:
+ 			 <input type="time" name="hora" min="18:00"
+                                 max="21:00" step="3600">
+			</form>
+			<input type="text" size="15" maxlength="30" value="Nombre" name="nombre">
+			<input type="text" size="15" maxlength="30" value="correo electronico" name="correo electronico">	
+			<input type="password" name="contraseña">
+			<textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+
+
+		</section>
+
+     </div>
+
+
+	</body>
+</html>
